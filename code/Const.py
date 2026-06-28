@@ -1,0 +1,17 @@
+# COR
+C_ORANGE = (255, 128, 230)
+C_WHITE = (255, 255, 255)
+C_YELLOW = (255, 255, 0)
+
+# MENU
+MENU_OPTION = (
+    'Novo jogo',
+    'SAIR'
+)
+
+# WINDOW
+WINDOW_WIDTH = 576
+WINDOW_HEIGHT = 324
+
+# SCORE
+HIGH_SCORE = 0
