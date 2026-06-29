@@ -9,7 +9,7 @@ class Player:
 
         self.velocity_y = 0
         self.gravity = 0.7
-        self.jump_force = -12
+        self.jump_force = -14
 
         self.on_ground = True
 

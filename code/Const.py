@@ -5,8 +5,8 @@ C_YELLOW = (255, 255, 0)
 
 # MENU
 MENU_OPTION = (
-    'Novo jogo',
-    'SAIR'
+    "Novo jogo",
+    "SAIR"
 )
 
 # WINDOW

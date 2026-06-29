@@ -2,7 +2,7 @@ import pygame
 
 from code.Const import WINDOW_WIDTH, WINDOW_HEIGHT
 from code.Menu import Menu
-from code.Level import Level   # novo import
+from code.Level import Level
 
 
 class Game:
@@ -12,14 +12,13 @@ class Game:
 
     def run(self):
 
+        menu = Menu(self.window)
+
         while True:
 
-            menu = Menu(self.window)
-            option = menu.run()      # guarda a opção escolhida
+            option = menu.run()
 
             if option == "Novo jogo":
-                pygame.mixer_music.stop()
-
                 level = Level(self.window)
                 level.run()
 
